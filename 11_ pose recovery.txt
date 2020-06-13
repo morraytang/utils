@@ -1,0 +1,8 @@
+
+paper1 2006: https://www.doc88.com/p-0106484500369.html  Walking数据集
+	http://www.ict.usc.edu/graphics/animaWeb/humanoid 没有了。
+paper2 2016: hong的论文 Walking数据集 
+
+数据格式
+
+

@@ -1,0 +1,35 @@
+
+
+1） 首先可以在dblp数据库找论文，关键词可以是作者名和论文题目。
+https://dblp.uni-trier.de/db/
+
+2） 找到对应的论文，有很多链接可以用，比如bibtex，可以得到论文的很多信息。例如：
+
+@article{DBLP:journals/access/BaoFZL20,
+  author    = {Xiaolong Bao and
+               Wenjiang Feng and
+               Jiali Zheng and
+               Jingfu Li},
+  title     = {Deep {CNN} and Equivalent Channel Based Hybrid Precoding for mmWave
+               Massive {MIMO} Systems},
+  journal   = {{IEEE} Access},
+  volume    = {8},
+  pages     = {19327--19335},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/ACCESS.2020.2967402},
+  doi       = {10.1109/ACCESS.2020.2967402},
+  timestamp = {Wed, 12 Feb 2020 16:55:26 +0100},
+  biburl    = {https://dblp.org/rec/journals/access/BaoFZL20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+其中doi       = {10.1109/ACCESS.2020.2967402},是很重要的信息，是论文的文档对象标识。 
+网络唯一。 
+
+3） 如果是SCI论文，那么通常可以由SCI-HUB通过DOI下载下来。
+https://sci-hub.tw/10.1109/ACCESS.2020.2967402
+
+https://sci-hub.tw/   +   doi， 赶紧试试吧。 tw标识是台湾的网络镜像。
+
+广告：常年接收愿意从事机器学习研究的同学加入团队，有意向的同学面谈。
+注：需要有吃苦耐劳的精神，需要有较好的数学功底和一定的英语阅读能力。

@@ -1,0 +1,23 @@
+
+雨课堂的具体操作流程
+https://mp.weixin.qq.com/s?__biz=MzA3OTU5NTI0Mw==&mid=2687288446&idx=1&sn=836c385e47761acbefa9cc891049ad2b&chksm=ba6977fa8d1efeec36f6db2bb5ed62d61dc8f8426ab7a666d0ee1f6f6456a170d792866f146b&mpshare=1&scene=23&srcid=&sharer_sharetime=1581423426366&sharer_shareid=c4343ca2eaf837df3f2608493ecfdf8c#rd
+
+1）安装OFFICE 2016 其他版本也可以
+使用KMSpico已经激活OFFICE，好用。 链接：https://pan.baidu.com/s/1grumAZ2kWYPb4PAWBP41HQ   提取码：0bj7 
+
+2）安装雨课堂程序 https://www.yuketang.cn/download 
+
+3）安装腾讯会议，官方网站：
+https://meeting.qq.com/
+
+4）录屏软件：http://kczx.xmut.edu.cn/G2S/Template/View.aspx?courseId=2005041&topMenuId=119764&menuType=2&action=view&type=1&name=&curfolid=7095
+
+教师：
+电脑端，腾讯会议投屏+雨课堂直播；手机端，微信+雨课堂遥控器
+学生：
+电脑端，腾讯会议直播听课；手机端：雨课堂互动（静音模式）
+即，教师采用腾讯会议直播授课，同时启用雨课堂互动加留档，微信或网络学堂分享课件，微信群通知与交流。
+备注：
+（1）前已述及，腾讯会议与雨课堂可实现优势互补。
+（2）若对回看、雨课堂的互动、作业环节无需求，可只采用腾讯会议直播授课。
+（3）若对动画、激光笔无需求，直接呈现PPT图片即可，可只采用雨课堂，腾讯会议只做备选授课方案。只采用雨课堂授课时，关于板书还有一点提醒，需要使用雨课堂的板书功能，不能用PPT的书写功能。

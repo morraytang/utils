@@ -1,0 +1,44 @@
+
+
+1）首先要重点学习线性代数与概率统计。
+参考一下连个视频: 
+线性代数：http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2Fopencourse%2Fdaishu.html
+概率与统计：http://open.163.com/newview/movie/courseintro?newurl=%2Fspecial%2FKhan%2Fkhstatistics.html
+
+2）机器学习理论
+Andrew NG的视频教程：https://www.bilibili.com/video/av9912938/
+参考书：机器学习实战：https://blog.csdn.net/qq_39521554/article/details/81029316 python3实现。 验证代码和理解代码很重要。
+
+深度学习：Andrw ng视频。 
+掌握常见网络的原理。
+
+deepLearning.ai
+
+免费中文深度学习视频，旷世科技，牛。 
+课程视频：
+https://www.bilibili.com/video/av88056282/
+课程PPT：
+https://pan.baidu.com/s/1dN4NUtDs-tXLvGyKEO1MFQ
+提取码：126a
+
+python实现简单的网络--全连接与CNN（需要掌握前向传播与后向传播的原理）：
+https://zhuanlan.zhihu.com/p/21525237
+https://zhuanlan.zhihu.com/p/21535703
+https://zhuanlan.zhihu.com/p/21572419
+https://zhuanlan.zhihu.com/p/21609512
+https://zhuanlan.zhihu.com/p/21675422
+https://zhuanlan.zhihu.com/p/21737674
+
+3）开发工具python3.X + pycharm，python编程语言的学习
+代码版本管理， git客户端 + gitee或github服务器。
+
+4）项目实践。
+在老师的指导下完成具体的研究任务，团队合作，任务驱动提高更快。
+
+5） 机器学习方向找论文和代码，可以关注paperswithcode这个网站，目前很多比较有影响力的成果都开源代码，比如顶级会议CVPR的论文等。
+大多数的代码都开源在github
+
+论文的下载参考 05_download
+
+广告：常年接收愿意从事机器学习研究的同学加入团队，有意向的同学面谈。
+注：需要有吃苦耐劳的精神，需要有较好的数学功底和一定的英语阅读能力。

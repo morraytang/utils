@@ -1,0 +1,28 @@
+下载epub并发送到kindle
+
+1.进入到亚马逊主页，选择管理我的kindle
+https://www.amazon.cn/myk 我已经绑定了微信登录，不要用其他的账户登录，以免混淆了。
+2.选择“管理我的内容设备”就可以看到自己绑定的设备及发送至的邮箱地址(你的kindle邮箱)。
+3.设置邮箱白名单的方法是，点“个人文档设置”，在“电子邮箱地址”中进行白名单的添加、删除
+	自己的邮箱
+4.把文件加到邮件附件里，邮件名Convert(这样文件能自动转换成适应kindle的格式），发送到自己的kindle邮箱xxx@kindle.cn
+	
+	然后用自己的邮箱发送文件到你的kindle邮箱。	
+5.接下来，只需要打开kindlewifi，坐等传送的文件自动下载。
+
+
+注意事项
+Kindle个人文档服务目前只能转换并发送以下类型的文档：
+Microsoft Word (.doc, .docx)
+RTF文件(.rtf)
+HTML(.htm, .html)
+TXT文件(.txt)
+Zip, x-zip压缩文件
+Mobi格式电子书               OK 。 就用这种格式，epub目前不支持了
+
+JPEG (.jpg), GIF (.gif), Bitmap (.bmp) 和 PNG (.png) 格式的图片。
+Adobe PDF (.pdf)文档可维持原文件格式，发送至您的Kindle。
+
+Adobe PDF (.pdf)文档可转换为Kindle格式发送，目前处于试用阶段。
+epub免费下载地址
+https://epubw.com/

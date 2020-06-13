@@ -1,0 +1,61 @@
+摘自：http://softlab.sdut.edu.cn/blog/subaochen/2017/07/%E8%AF%A6%E8%A7%A3newenvironment%E5%91%BD%E4%BB%A4/
+
+当标准的article/book/report类提供的environment不够用时，可以使用newenvironment/renewenvironment定义新的环境，其语法格式为：
+\newenvironment{新环境名称}[参数个数][参数默认值]{开始部分定义}{结束部分定义}
+\renewenvironment{新环境名称}[参数个数][参数默认值]{开始部分定义}{结束部分定义}
+其中参数的用法和\newcommand相同，最多允许9个参数，顺序使用#1、#2等引用参数。如果没有使用参数，则[0]可以省略。假设myenv环境的调用如下：
+\begin{myenv}{arg_1}…{arg_k}
+则可以在“开始部分定义”中使用#1，…#k来引用参数，这是newenvironment传递参数的方式。需要特别注意的是，newenvironment的参数只有在“开始部分定义”中才能使用，即“结束部分定义”中的代码无法获取参数。因此，如果要在“结束部分定义”中使用新环境的参数，必须在“开始部分定义”中保存到寄存器中，比如通过\newsavebox和\sbox等命令。
+
+2 举例
+先看一个简单的文章“摘要”（Abstract）的例子：假设，摘要的标题—摘要（Abstract）两个字加粗居中显示，正文使用quote格式，完整的示例文件参见2。
+
+\documentclass{article}
+\pagestyle{empty}
+\setlength\textwidth{3in}%限制文本宽度使得较少的文字就容易看出断行的效果
+\newenvironment{Abstract}{
+	\begin{center}\normalfont\bfseries Abstract\end{center}
+	\begin{quote}\par
+}%开始部分定义
+{\end{quote}}%结束部分定义
+
+\begin{document}
+\begin{Abstract}
+	This abstract explain the approach userd to solve the problems at hand.
+\end{Abstract}
+Some text following the abstract. Some text following the abstract. Some text following the abstract.
+\end{document}
+
+
+博士论文中存在的一段，参考了下面这个链接，终于看明白了。 
+https://www.latexstudio.net/archives/2219.html
+
+\RequirePackage[resetlabels]{multibib} %for \newcites
+
+% for achievement.aux
+\newcites{achievement}{攻读\chinesedegreename{}学位期间取得的成果} 
+
+%有了achievement.aux，后面所有相关的参考文献相关的命令都是加上achievement就等于直接作用于这个aux. 通常一个文档只生成一个aux. 
+
+\newenvironment{thesisachievement}{ %这是环境没有看出来哪里使用了
+  \renewcommand{\bibname}{攻读\chinesedegreename{}学位期间取得的成果}
+  \begin{thebibliography}{lo}
+  \interlinepenalty=10000
+  \begin{spacing}{1.667}
+  \thispagestyle{fancy}
+  \small
+}{
+  \end{spacing}\end{thebibliography}
+  \renewcommand{\bibname}{参考文献}
+}
+
+\newcommand{\thesisloadachievement}[1]{ %这里几个命令都是标准命令加了achievement就等于直接作用于这个achievement.aux. 
+  \nociteachievement{*}
+  \renewcommand{\bibname}{攻读\chinesedegreename{}学位期间取得的成果}
+  \thispagestyle{fancy}
+  \begin{spacing}{1.667}
+  \bibliographystyleachievement{thesis-uestc}
+  \bibliographyachievement{#1}
+  \end{spacing}
+  \renewcommand{\bibname}{参考文献}
+}

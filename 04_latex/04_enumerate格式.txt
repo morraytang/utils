@@ -1,0 +1,13 @@
+https://tex.stackexchange.com/questions/222408/how-to-list-items-like-this-i-ii-iii-etc
+这种方案靠谱。 
+
+\documentclass{article}
+\usepackage{enumitem}   
+
+\begin{document}
+\begin{enumerate}[label=(\roman*)]
+\item First item
+\item Second item
+\item Third item
+\end{enumerate}
+\end{document}

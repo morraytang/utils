@@ -1,0 +1,16 @@
+laplacian matrix
+https://www.cnblogs.com/xingshansi/articles/6702188.html
+
+laplacian matrix一个应用
+https://sci-hub.tw/10.1109/TIP.2012.2207397
+
+
+
+
+
+
+
+
+
+广告：常年接收愿意从事机器学习研究的同学加入团队，有意向的同学面谈。
+注：需要有吃苦耐劳的精神，需要有较好的数学功底和一定的英语阅读能力。

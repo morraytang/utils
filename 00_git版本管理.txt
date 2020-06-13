@@ -1,0 +1,30 @@
+
+1）git协议的服务器常用的两个，国外的github, 国内的gitee。 我常用gitee， 但找资源通常还是得找github。 
+
+2）本地安装git客户端，配置好服务器的用户名和密码，为了管理方便，客户端（每台主机）需要生成公钥并部署到服务器。
+
+3）常用操作
+
+git clone git@#####.git
+
+提交可用命令，也可用GUI界面
+git add . 
+git commit -m ''
+git push
+
+git pull 提取服务器最新分支，注意本地版本不能有冲突
+
+git log --oneline --graph --decorate
+可以用别名
+先配置 git config --global alias.lol 'log --oneline --graph --decorate'
+使用   git lol
+
+使用服务器版本，并强行覆盖本地版本。
+git fetch --all
+git reset --hard origin/master   可以选择服务器的分支
+
+
+
+
+广告：常年接收愿意从事机器学习研究的同学加入团队，有意向的同学面谈。
+注：需要有吃苦耐劳的精神，需要有较好的数学功底和一定的英语阅读能力。

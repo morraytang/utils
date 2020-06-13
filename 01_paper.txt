@@ -1,0 +1,55 @@
+
+
+1） 使用texlive和texstudio写论文，写论文如果没有确定投哪个刊物，用默认的几种格式。\documentclass[12pt, a4paper]{article}
+    使用languagetool来对英文论文进行格式语法审查，一定不能出现低级的单词拼写错误，谓语单复数出错等。//多难必多易，多易必多难。
+    可以进行联动配置，如果没有启动languagetool, 可以配置texstudio后自动启动。如果启动成功，可以看到右下角LT标志指示:connect to http://localhost:8081/v2/check
+    如果配置不成功，就只能手动启动了。效果一样。 
+
+    编译的时候：
+    xelatex   
+    bibtex
+    xelatex
+    xelatex
+
+2） 使用在线生成表格工具生成tex表格，省去格式调整的麻烦。http://www.tablesgenerator.com/#
+    设置表格的大小：在线生成的表格有默认的大写，但是放在正文中通常需要与文字的宽度匹配，生成的时候下面有个选项：scale table to text width。
+	% Please add the following required packages to your document preamble:
+	% \usepackage{graphicx}
+	\begin{table}[]
+	\resizebox{\textwidth}{!}{%    加上了这一行。{}{} 分别是宽和高的值，只设定宽度，高度！表示适配宽度。\textwidth命令就是一个函数，返回文本宽度。
+	\begin{tabular}{lllll}
+	\hline
+	4  & 5  & 8  & 8  & 7  \\ \hline
+	11 & 44 & 55 & 77 & 11 \\ \hline
+	78 & 1  & 2  & 5  & 6  \\ \hline
+	7  & 8  & 8  & 9  & 9  \\ \hline
+	\end{tabular}            %    
+	}                        %    加上了这一行。
+	\caption{product sales. }
+	\label{tab:my-table}
+	\end{table}
+
+3） tex公式图片提取神器Snip, 将各种公式转成 LaTeX：https://mp.weixin.qq.com/s/7Wy0FI011QeGruaglmx87g
+    https://mathpix.com/win_app/mathpix_snipping_tool_setup.exe  下载地址。 下载最新版本，否则会报错。 
+
+4） 编译后的bib文件会根据格式文件生成bbl文件，里面是带格式的参考文献代码。可以直接拷贝到tex文件中。 MPE论文是这么处理的。 
+
+5） 用ppt绘图就足够了，然后ppt转pdf, 最后用adobe acrobat编辑，转换成eps. 
+    图片的大小也可以和表格一样与文本的宽度进行匹配。
+    代码如下：
+    \begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{accuracy30.eps}  %width=0.9\textwidth 0.9倍文本宽度。
+
+6） 机器学习方向找论文和代码，可以关注paperswithcode这个网站，目前很多比较有影响力的成果都开源代码，比如顶级会议CVPR的论文等。
+大多数的代码都开源在github
+
+
+
+
+7) 可以使用adobe acrobat直接编辑pdf文件，我安装的版本是：工具-> 高级编辑 -> Touchup文本工具
+
+
+
+广告：常年接收愿意从事机器学习研究的同学加入团队，有意向的同学面谈。
+注：需要有吃苦耐劳的精神，需要有较好的数学功底和一定的英语阅读能力。
