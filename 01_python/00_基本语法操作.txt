@@ -1,0 +1,9 @@
+
+
+import sys
+dir(sys) type(sys) help(sys)
+
+print(a) µÈ¼Û sys.stdout.write(str(a)+'\n')
+
+
+
